@@ -3,7 +3,9 @@ module.exports = {
     "plugins": [
         "react"
     ],
-    "new-cap": 0,
+    "rules": {
+      "new-cap": 0
+    },
     "parser": "babel-eslint",
     "parserOptions": {
         "ecmaFeatures": {
